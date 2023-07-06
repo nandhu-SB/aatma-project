@@ -1,0 +1,36 @@
+.userprofile-outercontainer{
+    margin-top: 100px;
+    margin-left:200px;
+    margin-right:200px;
+    border: 1px solid var(--blue-color);
+    background-color: var(--blue-color);
+    color: azure;
+    font-size: larger;
+    border-radius: 40px;
+    padding: 30px;
+    
+}
+.userprofile-outercontainer h3{
+    text-align: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.user-profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+.userprofile-image img{
+    width: 160px;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+}
+.right-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+        font-size: larger;
+}
